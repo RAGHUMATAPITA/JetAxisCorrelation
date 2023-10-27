@@ -1,0 +1,2 @@
+/store/user/rpradhan/HighEGJet/ppref2017_DataAOD/231025_185808/0000/HiForestAOD_Data_1.root
+/store/user/rpradhan/HighEGJet/ppref2017_DataAOD/231025_185808/0000/HiForestAOD_Data_10.root
