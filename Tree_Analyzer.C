@@ -68,8 +68,8 @@ void Tree_Analyzer(TString input_file, int itxtoutFile, TString out_file, TStrin
       if(!is_MC)
 	{
 	  JEC_file_data = pp_JEC_file_data;
-	  is_JEU = true;
-	  is_JEU_up = true;
+	  is_JEU = false;
+	  is_JEU_up = false;
 	  is_JEU_down = false;
 	  if(is_JEU)	  
 	    {
@@ -89,7 +89,7 @@ void Tree_Analyzer(TString input_file, int itxtoutFile, TString out_file, TStrin
 	  is_ptWeight = false;
 	}
 
-      is_JetTrigger = true;
+      is_JetTrigger = false;
 
       jet_trigger = PbPb_jet_trigger;
 
@@ -134,8 +134,8 @@ void Tree_Analyzer(TString input_file, int itxtoutFile, TString out_file, TStrin
       if(!is_MC)
 	{
 	  JEC_file_data = PbPb_JEC_file_data;
-	  is_JEU = true;
-	  is_JEU_up = true;
+	  is_JEU = false;
+	  is_JEU_up = false;
 	  is_JEU_down = false;
           if(is_JEU)
             {
@@ -472,6 +472,7 @@ void Tree_Analyzer(TString input_file, int itxtoutFile, TString out_file, TStrin
 	  if(jet_trigger_bit != 1) continue; // apply jet trigger
 	}
 
+
       hEvents->AddBinContent(5,1);
 
       if(nref <= 0) continue; // if there is no jets in an event
@@ -479,7 +480,7 @@ void Tree_Analyzer(TString input_file, int itxtoutFile, TString out_file, TStrin
       hEvents->AddBinContent(6,1);
 
       // determine reco/data event weight here
-      double Evtw = 1.; // Even weight
+      double Evtw = ptHatw; // Even weight
             
       if(is_MC && is_CentBin_and_VZ_Weight)
 	{
