@@ -1,0 +1,7 @@
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_120.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_400.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_114.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_101.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_413.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_408.root
+root://se01.indiacms.res.in:1094//store/user/rpradhan/HIHardProbes/PbPb2018_DataAOD/231029_052649/0000/HiForestAOD_PbPb2018_Data_398.root
